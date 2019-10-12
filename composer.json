@@ -1,0 +1,18 @@
+{
+    "name": "lucas/biblioteca/sorteiojogos",
+    "description": "Sorteio de jogos com PHP.",
+    "type": "library",
+    "authors": [{
+        "name": "Lucas Madeira",
+        "email": "lucascruz96@outlook.com"
+    }],
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "SorteioJogos\\": "src",
+            "SorteioJogosTests\\": "tests"
+        }
+    }
+}
